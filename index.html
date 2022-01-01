@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+<body>
+  <header>
+    <nav class="nav collapsible">
+      <a class="nav__brand" href="/"><img src="images/logo.svg" alt="" /></a>
+      <svg class="icon icon--white nav__toggler">
+        <use href="images/sprite.svg#menu"></use>
+      </svg>
+      <ul class="list nav__list collapsible__content">
+        <li class="nav__item"><a href="#">Deck Card</a></li>
+        <li class="nav__item"><a href="#">Another component</a></li>
+      </ul>
+    </nav>
+  </header>
+    
+  <section data-aos="fade-up" class="block container block-plans">
+    <h2>Deck Card</h2> 
+    <div class="grid grid--auto-fill">
+      <div class="plan">
+        <div class="card">
+          <header class="card__header--image">
+            <span class="badge badge--secondary badge--small">html+css</span>
+          </header>
+          <div class="card__body">
+            <h3 class="title">New css framework</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nemo, totam omnis nostrum aliquam aperiam? Quo provident, maiores repellat optio commodi exercitationem.</p>
+            <button class="btn btn--outline btn--block">Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="plan">
+        <div class="card">
+          <header class="card__header--image">
+            <span class="badge badge--secondary badge--small">html+css</span>
+          </header>
+          <div class="card__body">
+            <h3 class="title">New css framework</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nemo, totam omnis nostrum aliquam aperiam? Quo provident, maiores repellat optio commodi exercitationem.</p>
+            <button class="btn btn--outline btn--block">Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="plan">
+        <div class="card">
+          <header class="card__header--image">
+            <span class="badge badge--secondary badge--small">html+css</span>
+          </header>
+          <div class="card__body">
+            <h3 class="title">New css framework</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nemo, totam omnis nostrum aliquam aperiam? Quo provident, maiores repellat optio commodi exercitationem.</p>
+            <button class="btn btn--outline btn--block">Read More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
